@@ -1,0 +1,271 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgContenedor{
+    width:100px;
+    height: 100px;
+}
+main{
+    background-image: url(../images/cabecera-1-2.jpg);
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+    
+.principal{
+    color: #ffff;
+    text-align: center;
+    font-family: 'Roboto';
+    width: 730px;
+    float: left;
+    margin: 60px 0 0 270px;
+
+    /* margin: 30px 0 0 0; */
+}
+
+main h1{
+    font-family: 'Roboto';
+     font-size: 40px;
+     word-spacing:2px;
+     margin: 0 0 10px 0;
+}
+main p{
+    
+    font-size: 15px;  
+
+}
+
+
+ a{
+    text-decoration: none;
+    list-style: none;
+    color: #ffff;
+ }
+
+.clear{
+    clear: both;
+}
+
+header {
+    background-color: rgb(36, 40, 43);
+    border-bottom: 4px solid rgb(16, 147, 212);
+    height: 60px;
+}
+
+header nav LI{
+    float: left ;
+    text-decoration: none;
+    list-style:none ;
+    margin: 20px 40px 0 0;
+    font-family: 'Roboto';
+    font-size: 13px;
+
+}
+
+header nav ul{
+    float: left;
+    margin-left: 450px;
+}
+
+header nav h2{
+    float: left;
+    font-family:'Roboto';
+    color: rgb(225, 243, 255);
+    margin: 14px 0 0 145px ;
+    font-size: 20px;
+      
+}
+#azulxd{
+    color: #0094d4;
+    margin: 14px 0 0 5px;
+}
+.Barra2{
+    height:30px ;
+    background-color: rgb(36, 40, 43);
+    height: 70px;
+    margin:  0 0 30px 0;
+ 
+}
+
+.Barra2 nav h4{
+    float: left;
+    margin: 30px 0 0 155px;
+    color: #ffff;
+    font-family: 'Roboto',sans-serif;
+    /* margin: 30px 0 0 70px ; */
+
+}
+.Barra2 nav input{
+    float: left;
+    padding: 4px 30px 4px 0;
+    margin:22px 0 0 475px ;
+}
+
+.Barra2 nav button{
+    padding: 7px 15px 7px 15px ;
+    margin:20px 0 0 2px;
+
+    background-color: rgb(232, 73, 29);
+    color: #ffff;
+
+    border: none;
+    float: left;
+}
+
+
+:root{
+    --clear: #0094d4;
+}
+
+
+.contenedorPadre{
+    font-family: 'Roboto';
+
+    float: left;
+    height: 80%;
+    margin: 0 0 30px 180px;
+
+
+}
+.Hijos{
+    width:300px ;
+    float: left;
+    margin: 0 0 0 10px;
+    text-align: center;
+    
+    
+}
+
+
+
+footer{
+    margin: 15px 0 0 0 ;
+    height:50px ;
+    background-color: #0094d4;
+}
+footer p{
+    font-family: 'Roboto';
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
+
+a:hover{
+    color: #0094d4;
+}
+
+
+
+/*Nosotros*/
+
+.CajaPadre{
+    width: 670px;
+    margin: 0 0 0 145px;
+    float: left;
+}
+
+.CajaPadre h4{
+    font-family: 'Roboto';
+    margin: 0 0 15px 0;
+}
+.cajahijo{
+    text-align: left;
+}
+
+#diferente{
+    background-color: rgb(53, 66, 74);
+    color: #ffff ;
+}
+
+#diferente p{
+    margin:  0 15px 0 15px;
+    padding: 10px 0 10px 0 ;
+    
+}
+
+.derecha{
+    width: 250px;
+    float: left;
+    margin: 0 0 0 60px;
+    background-color: rgb(53, 66, 74);
+    color: #ffff;
+    padding: 0 10px 30px 0;
+    
+}
+.derecha p{
+    margin: 0 0 0 20px;
+}
+.derecha h4{
+    font-family: 'Roboto';
+    margin: 30px 0 20px 20px;
+}
+
+#cafe{
+    width:670px;
+    margin: 10px 0 0 145px;
+}
+
+
+/*Servicios*/
+
+
+
+
+body h4{
+    font-family: 'Roboto',sans-serif;
+}
+
+.cajahijo2{
+    background-color: rgb(230, 230, 230);
+    margin: 0 0 5px 0;
+    padding: 25px 0 25px 0 ;
+}
+
+.cajahijo2 p{
+    width: 588px;
+    margin: 15px 0 0 20px;
+}
+
+.cajahijo2 h4{
+    margin: 0 0 0 20px;
+}
+
+
+
+/*Contactanos*/
+
+.CajaInput input{
+    padding: 8px 500px 8px 0;
+    border: solid 1px rgb(95, 98, 100);
+}
+
+
+textarea{
+    padding: 5px 500px 150px 0;
+
+}
+
+#mapa{
+    width: 260px;
+    float: right;
+    margin: 10px 170px 0 0 ;
+    height: 230px;
+}
+
+.CajaPadre button{
+    padding: 7px 320px 7px 320px ;
+    margin:20px 0 0 0;
+
+    background-color: rgb(232, 73, 29);
+    color: #ffff;
+
+    border: none;
+    text-align: center;
+}
